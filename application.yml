@@ -16,6 +16,5 @@ microservice:
     endpoints: 
       endpoint:
         fetch: http://ORDER-SERVICE/orders/fetch
-        updpending: http://ORDER-SERVICE/orders/update/{orderId}/Pending
-        updcomplete: http://ORDER-SERVICE/orders/update/{orderId}/Completed
- 
+        update: http://ORDER-SERVICE/orders/update
+        
